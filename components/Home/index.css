@@ -1,0 +1,141 @@
+.dashboard-list {
+  display: flex;
+  align-items: center;
+  font-size: large;
+}
+.dashboard-list :hover {
+  font-size: x-large;
+  color: aqua;
+}
+.dashboard-left-container {
+  background-color: black;
+  min-height: 100vh;
+  max-height: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+  width: 15vw;
+  color: #ffffff;
+}
+.main-dashboard-container {
+  min-height: 100vh;
+  max-height: 100%;
+  display: flex;
+}
+.dashboard-right-container {
+  color: black;
+  background-color: #ebebeb;
+  margin: 10px;
+  width: 85vw;
+  padding: 20px;
+  border-radius: 20px;
+}
+.dashboard-search {
+  width: 200px;
+  outline: none;
+  background-color: #ffffff;
+  border-width: 0;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0;
+}
+.navbar-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-right-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  width: 300px;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+  padding: 0;
+  margin: 0;
+}
+.icon :hover {
+  font-size: x-large;
+  color: aqua;
+}
+.tabs-1 {
+  background-color: #ddefe0;
+  border-radius: 10px;
+  width: 15vw;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.tabs-2 {
+  background-color: #f4ecdd;
+  border-radius: 10px;
+  width: 15vw;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.tabs-3 {
+  background-color: #efdada;
+  border-radius: 10px;
+  width: 15vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.tabs-4 {
+  background-color: #dee0ef;
+  border-radius: 10px;
+  width: 15vw;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.icon-tabs {
+  align-self: flex-end;
+  font-size: large;
+}
+.data-chart {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.modal-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 40px;
+  align-self: center;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.modal-overall-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yes-button {
+  background-color: green;
+  color: black;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+}
+.no-button {
+  background-color: red;
+  color: black;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+}
